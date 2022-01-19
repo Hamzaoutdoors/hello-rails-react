@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :v1, defaults: { format: 'json' } do
-    get 'things', to: 'things#index'
+    get 'greetings', to: 'greetings#index'
   end
 
   get '*page', to: 'static#index', constraints: ->(req) do
