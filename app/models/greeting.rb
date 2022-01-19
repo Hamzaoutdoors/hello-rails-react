@@ -1,4 +1,3 @@
 class Greeting < ActiveRecord::Base
-    validates :greeting, presence: true
-  end
-  
+  validates :greeting, presence: true
+end
